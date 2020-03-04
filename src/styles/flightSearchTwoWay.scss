@@ -1,0 +1,13 @@
+@import './colors';
+
+.flight-search-two-way-container {
+    display: flex;
+    width: 78%;
+    .flight-search-one-way-container {
+        flex: 1;
+    }
+    .flight-search-one-way-container:nth-child(2) {
+        border-left: 1px dashed $white;
+        margin-left: 0px;
+    }
+}

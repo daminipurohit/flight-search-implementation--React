@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoComponent should render correctly 1`] = `
+<div
+  className="info-container"
+>
+  <div
+    className="info-content"
+  >
+    <div>
+      I am child
+    </div>
+  </div>
+</div>
+`;

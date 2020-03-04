@@ -1,0 +1,12 @@
+
+@import "./colors";
+
+.error-container {
+    background-color: $white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 10px;
+}

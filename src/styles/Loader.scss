@@ -1,0 +1,33 @@
+@import './colors.scss';
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loader-container {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 10px;
+    
+    .loader-icon {
+        border: 2px solid $concrete;
+        border-radius: 50%;
+        border-top: 2px solid $light-blue;
+        width: 15px;
+        height: 15px;
+        -webkit-animation: spin 2s linear infinite; /* Safari */
+        animation: spin 2s linear infinite;
+        margin-bottom: 3px;  
+    }
+}

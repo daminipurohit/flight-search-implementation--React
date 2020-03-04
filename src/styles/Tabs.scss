@@ -1,0 +1,33 @@
+@import "./colors.scss";
+
+.tabs {
+    display: flex;
+}
+.tab-list {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    width: 90%;
+  }
+  
+  .tab-list-item {
+    flex:1;
+    list-style: none;
+    padding: 7px;
+    cursor: pointer;
+    border: 1px solid $light-gray;
+    border-left: none;
+    background-color: $concrete;
+    border-radius: 2px;
+    text-align: center;
+  }
+
+  .tab-list-item:first-child {
+    border-left: 1px solid $light-gray;
+  }
+  
+  .active {
+    background-color: $sky-blue;
+    color: $white;
+    border-width: 1px 1px 0 1px;
+  }

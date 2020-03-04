@@ -1,0 +1,15 @@
+@import './colors.scss';
+
+.layover-wrapper {
+    text-align: center;
+    .layover-text {
+        position: relative;
+        top: 7px;
+        border: 1px dashed $gray;
+        padding:10px;
+        background-color: $white;
+    }
+    .horizontal-dash {
+        border: 1px dashed $gray;
+    }
+}

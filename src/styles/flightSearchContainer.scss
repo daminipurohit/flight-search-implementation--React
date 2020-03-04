@@ -1,0 +1,51 @@
+.flight-search-container {
+    display: flex;
+
+    .flight-search-form-container {
+        width: 22%;
+        margin-left: 9px;
+
+        .tabs {
+            padding-left: 10px;
+
+            .tab-list {
+                width: 66%;
+
+                .tab-list-item:first-child {
+                    border-top-left-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                }
+                .tab-list-item:last-child {
+                    border-top-right-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                }
+            }
+        }
+    }
+
+    .info-container {
+    width: 78%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .loader-container, .error-container {
+        width: 200px;
+        position: relative;
+        top:80px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .error-container {
+        width: 50%;
+        text-align: center;
+    }
+
+    .search-results-default {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

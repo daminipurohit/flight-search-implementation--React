@@ -1,0 +1,11 @@
+@import './colors';
+
+.flight-header-container {
+    .header-label {
+        margin-left:5px;
+    }
+    .sub-header {
+        color: $gray;
+        margin: 5px 0px;
+    }
+}

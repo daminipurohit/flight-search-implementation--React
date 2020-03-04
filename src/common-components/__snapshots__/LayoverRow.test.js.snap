@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LayoverRow should render correctly 1`] = `
+<div
+  className="layover-wrapper"
+>
+  <span
+    className="layover-text"
+  >
+    2hr
+  </span>
+  <div
+    className="horizontal-dash"
+  />
+</div>
+`;

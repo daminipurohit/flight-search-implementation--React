@@ -1,0 +1,34 @@
+@import "./colors";
+
+.button-default{
+    padding: 10px;
+    border-radius: 7px;
+    background-color: $gray;
+    color: $white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+}
+.button-default:focus {
+    background-color: $dark-gray;
+}
+.button-primary {
+    background-color: $sky-blue;
+}
+.button-danger {
+    background-color: $red;
+}
+.button-primary:focus {
+background-color: $blue;
+}
+.button-danger:focus {
+    background-color: $dark-red;
+}
+.button-disabled {
+    opacity: 0.6;
+}
+
+.button-disabled:hover {
+    cursor: not-allowed;
+}

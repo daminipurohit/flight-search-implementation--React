@@ -1,0 +1,68 @@
+@import "./colors";
+
+.flight-search-form {
+    border: 1px solid $light-gray;
+    border-radius: 6px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+
+    .form-element {
+        margin: 10px 0px;
+    }
+
+    .form-element:focus {
+        outline: none !important;
+    }
+
+    .form-date, .form-number {
+    align-items: left;
+    border-color: $light-gray;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    min-height: 17px;
+    width: 93%;
+    padding: 9px !important;
+    }
+
+    .form-submit {
+        width: 53%;
+        margin-top: 1em;
+    }
+
+    .form-error {
+        border: 1px solid $red;
+        border-radius: 4px;
+        div {
+            border: unset !important;
+        }
+    }
+
+    .form-duplicate-city-error {
+        color: $red;
+        margin-left: 9px;
+    }
+
+    .price-range {
+        display: flex;
+    align-items: center;
+    .price-range-text {
+        width: 30%;
+        color: $gray;
+    }
+        .input-range {
+            margin-left: 11px;
+            width: 60%;
+
+            .input-range__track--active, .input-range__slider {
+                background-color: $sky-blue;
+                border-color: $sky-blue;
+            }
+
+            .input-range__label-container {
+                color: $black;
+            }
+        }
+    }
+}

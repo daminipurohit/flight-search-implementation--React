@@ -1,0 +1,29 @@
+@import "./colors";
+
+$theme-font: verdana, sans-serif;
+$theme-font-size: 14px;
+
+body {
+overflow-x: hidden;
+max-width: 100%;
+margin: 0;
+padding: 0;
+background-color: $light-gray;
+}
+
+.flex-vertical-center {
+    display:flex;
+    align-items: center;
+}
+
+.flight-search-app {
+    font-family: $theme-font;
+    font-size: $theme-font-size;
+    .header-text {
+        font-size: 16px;
+        color: $white;
+        width: 100%;
+        padding: 14px 0px 14px 9px;
+        background-color: $gray;
+    }
+}

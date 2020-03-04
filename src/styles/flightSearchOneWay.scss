@@ -1,0 +1,41 @@
+@import './colors';
+@import './flightSearchContainer';
+
+$header-background: #21418F;
+
+.flight-search-one-way-container {
+    width: 75%;
+    margin-left: 10px;
+    border-left: 1px solid $light-gray;
+
+    .direct-departure-flight-icon, .direct-arrival-flight-icon {
+        width:27px;
+        height:27px;
+        transform: rotate(-8deg);
+    }
+
+    .direct-arrival-flight-icon {
+        transform: rotate(177deg);
+    }
+
+    .loader-container {
+        @extend .loader-container;
+    }
+    .error-container {
+        @extend .error-container;
+    }
+}
+.flight-header-container {
+    border-bottom: 1px solid $light-gray;
+    padding: 10px;
+    color: $white;
+    background-color: $header-background;
+
+    .flight-header {
+        display: flex;
+        align-items: center;
+    }
+    .sub-header {
+        color: $light-gray;
+    }
+}

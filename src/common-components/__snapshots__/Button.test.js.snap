@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render correctly as danger button 1`] = `
+<button
+  className="button-default  button-danger"
+  disabled={false}
+  onClick={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  Danger button
+</button>
+`;
+
+exports[`Button should render correctly as default button 1`] = `
+<button
+  className="button-default "
+  disabled={false}
+  onClick={[MockFunction]}
+>
+  Default button
+</button>
+`;
+
+exports[`Button should render correctly as disabled button 1`] = `
+<button
+  className="button-default  button-disabled"
+  disabled={true}
+  onClick={[MockFunction]}
+>
+  Disabled button
+</button>
+`;
+
+exports[`Button should render correctly as primary button 1`] = `
+<button
+  className="button-default  button-primary"
+  disabled={false}
+  onClick={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  Primary button
+</button>
+`;

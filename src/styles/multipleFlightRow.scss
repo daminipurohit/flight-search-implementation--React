@@ -1,0 +1,36 @@
+@import './flightRow.scss';
+@import './colors.scss';
+
+.multi-flight-wrapper {
+   border: 1px solid $white;
+   background-color: $white;
+   border-radius: 5px;
+    margin: 9px;
+.multi-flight-row {
+    @extend .flight-row;
+    border: 0;
+    margin: 0;
+    
+    .multi-flight-icon {
+        height: 21px;
+        width: 21px;
+        transform: rotate(-56deg);
+    }
+}
+.multi-sub-flight-wrapper {
+     background-color: $light-gray;
+     margin: 0 2px;
+    .flight-row {
+        width: 73%;
+        background-color: $light-gray;
+
+        .flight-sub-detail {
+            font-size: .8em;
+        }
+    }
+    .layover-section {
+        position: relative;
+        top: -6px;
+    }
+}
+}
