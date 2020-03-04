@@ -7,7 +7,7 @@
     "build": "webpack --mode production --progress",
     "lint": "eslint \"src/**\"",
     "lint:fix": "eslint \"src/**\" --fix",
-    "test": "jest --coverage --colors --watchAll",
+    "test": "jest --colors --watchAll",
     "test:watch": "jest --watchAll",
     "test:coverage": "jest --coverage --colors",
     "test:update": "jest -u"
