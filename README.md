@@ -22,6 +22,22 @@ It checks for all linting issues.
 
 It fixes auto-fixable linting issues.
 
+### `npm run test`
+
+It runs all testcases. Also made it to give coverage at end for easy development.
+
+### `npm run test:update`
+
+It updates existing snapshot to new one. Please verify new snapshot is correct then only replace existing with it. You can remove coverage and only run testcases by just keeping this command value as jest.
+
+### `npm run test:watch`
+
+It runs testcases on watch mode.
+
+### `npm run test:coverage`
+
+It runs test and gives coverage report.
+
 ### `Design Principles`
 Composition
 
